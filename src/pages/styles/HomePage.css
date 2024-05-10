@@ -1,0 +1,183 @@
+.home-page-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.pokedex-image {
+  position: absolute;
+  width: 100%;
+  max-width: 630px;
+  height: auto;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  background: url(image.png) ;
+}
+
+.welcome-text {
+  position: absolute;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FE1936;
+  top: 190px;
+}
+
+.instructions-text {
+  position: absolute;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #302F2F;
+  top: 250px;
+  left: 450px;
+}
+
+.form-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 320px;
+}
+
+.large-rectangle {
+  width: 70%;
+  max-width: 500px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.small-rectangle {
+  width: 20%;
+  max-width: 120px;
+  height: 50px;
+  background: #D93F3F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+}
+
+.btn-start {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  top: 434px;
+  bottom: 0;
+  left: 0;
+}
+
+.large-rectangle-footer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  top: 40px;
+  background: #DD1A1A;
+}
+
+.small-rectangle-footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 123.18px;
+  background: #0C0C0C;
+}
+
+.circle-big {
+  box-sizing: border-box;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: calc(50% - 58.5px);
+  top: 60px; 
+  background: #FFFFFF;
+  border: 12px solid #000000;
+  border-radius: 50%;
+}
+
+.circle-small {
+  box-sizing: border-box;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 35px);
+  top: 86px; 
+  background: #212121;
+  border: 12px solid #000000;
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .welcome-text {
+      font-size: 30px;
+      top: 150px;
+  }
+
+  .instructions-text {
+      font-size: 20px;
+      top: 210px;
+      left: 85px;
+  }
+
+  .form-container {
+      top: 280px;
+  }
+
+  .large-rectangle {
+      width: 80%;
+      max-width: 400px;
+  }
+
+  .small-rectangle {
+      width: 30%;
+      max-width: 100px;
+  }
+
+  .input-field {
+      font-size: 20px;
+  }
+}

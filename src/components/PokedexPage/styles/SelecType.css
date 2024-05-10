@@ -1,0 +1,24 @@
+.select-element {
+  z-index: 1;
+  padding: 15px;
+  font-size: 18px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.option-all {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.option-type {
+  color: #333;
+}
+@media screen and (max-width: 768px) {
+  .select-element {
+    font-size: 16px; 
+  }
+}
+
